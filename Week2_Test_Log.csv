@@ -1,0 +1,20 @@
+test_id,category,description,input,expected,actual,result
+T01,Normal,Clear Register phrase,'register my attendance',Register,Register,PASS
+T02,Normal,Clear Repeat phrase (2 keyword hits),'say that again',Repeat,Repeat,PASS
+T03,Normal,Confusion phrase (AI model got this wrong in Week 1),'i am confused',Help,Help,PASS
+T04,Normal,"Accuracy on 4 answers, 3 correct","(Register,Register) (Help,Help) (Cancel,Cancel) (Repeat,Unknown)",0.75,0.75,PASS
+T05,Missing/zero,Empty phrase,'',Unknown,Unknown,PASS
+T06,Missing/zero,Row with no text is removed,"('', Help), ('help', Help)",kept 1 ('help'); dropped 1 (missing text),kept 1 ('help'); dropped 1 (missing text),PASS
+T07,Missing/zero,Row with no label is removed,"('stop', ''), ('cancel', Cancel)",kept 1 ('cancel'); dropped 1 (missing label),kept 1 ('cancel'); dropped 1 (missing label),PASS
+T08,Missing/zero,Accuracy of an empty list (no division by zero),[],N/A,N/A,PASS
+T09,Missing/zero,CSV with only the header row,no rows,kept 0 (none); dropped 0 (none),kept 0 (none); dropped 0 (none),PASS
+T10,Duplicate,Same phrase twice with the same label,"('help', Help) x2",kept 1 ('help'); dropped 1 (duplicate),kept 1 ('help'); dropped 1 (duplicate),PASS
+T11,Duplicate,Duplicate hidden by capitals and spaces,"('Check In', Register), (' check  in ', Register)",kept 1 ('check in'); dropped 1 (duplicate),kept 1 ('check in'); dropped 1 (duplicate),PASS
+T12,Duplicate,Same phrase with two different labels,"('stop', Cancel), ('stop', Help)",kept 0 (none); dropped 2 (conflicting labels),kept 0 (none); dropped 2 (conflicting labels),PASS
+T13,Edge,Negation with capitals and punctuation,'DON'T Register!!',Cancel,Cancel,PASS
+T14,Edge,Tie: one Register word and one Help word,'how do i register',Unknown,Unknown,PASS
+T15,Edge,Tie between two commands,'repeat and cancel',Unknown,Unknown,PASS
+T16,Edge,'start' means Register but 'start over' means Cancel,'start over',Cancel,Cancel,PASS
+T17,Edge,Misspelled label in the CSV,"('register', 'Registr')",kept 0 (none); dropped 1 (invalid label),kept 0 (none); dropped 1 (invalid label),PASS
+T18,Known limit,Misheard 'hep' should mean Help,'hep',Help,Unknown,FAIL
+T19,Known limit,Misheard 'check me inn' should mean Register,'check me inn',Register,Unknown,FAIL

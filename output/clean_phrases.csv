@@ -1,0 +1,187 @@
+text,label,split
+register,Register,test
+register me,Register,train
+register my attendance,Register,train
+check me in,Register,train
+check in,Register,train
+okay do it,Register,train
+do it,Register,test
+yes register,Register,train
+mark me present,Register,test
+mark my attendance,Register,train
+i am here,Register,train
+i am in class,Register,train
+take my attendance,Register,train
+sign me in,Register,train
+start registration,Register,test
+start scanning,Register,train
+scan the code,Register,train
+scan now,Register,train
+lets scan,Register,train
+i want to register,Register,train
+please register me,Register,train
+register attendance,Register,train
+record my attendance,Register,train
+log my attendance,Register,test
+i want to check in,Register,test
+go ahead,Register,train
+start,Register,train
+begin,Register,train
+ready,Register,test
+i am ready,Register,train
+yes please,Register,train
+yeah do it,Register,train
+ok register,Register,train
+confirm attendance,Register,train
+submit attendance,Register,train
+present,Register,train
+i am present,Register,train
+mark present,Register,train
+reister,Register,train
+regester,Register,train
+registar me,Register,test
+chek me in,Register,train
+check me inn,Register,train
+ok lets do it,Register,train
+repeat,Repeat,train
+repeat that,Repeat,train
+repeat please,Repeat,train
+say that again,Repeat,test
+say it again,Repeat,train
+again,Repeat,train
+one more time,Repeat,train
+once more,Repeat,train
+what did you say,Repeat,train
+what was that,Repeat,train
+i did not hear that,Repeat,train
+i did not catch that,Repeat,train
+come again,Repeat,test
+sorry what,Repeat,train
+pardon,Repeat,test
+can you repeat,Repeat,train
+could you say that again,Repeat,train
+tell me again,Repeat,train
+read it again,Repeat,train
+play that again,Repeat,train
+repeat the instruction,Repeat,train
+repeat the last message,Repeat,train
+say again,Repeat,test
+say that once more,Repeat,train
+please say it again,Repeat,train
+repete,Repeat,train
+repeet,Repeat,train
+repeat it,Repeat,train
+i missed that,Repeat,train
+can you say it again,Repeat,test
+what did you just say,Repeat,train
+one more time please,Repeat,test
+go over that again,Repeat,train
+tell me that again,Repeat,train
+huh say that again,Repeat,train
+repit,Repeat,train
+repeat pleas,Repeat,train
+cancel,Cancel,train
+cancel that,Cancel,train
+cancel it,Cancel,train
+stop,Cancel,train
+stop it,Cancel,train
+stop now,Cancel,train
+never mind,Cancel,train
+nevermind,Cancel,test
+forget it,Cancel,train
+abort,Cancel,train
+quit,Cancel,train
+exit,Cancel,train
+go back,Cancel,train
+back,Cancel,train
+no,Cancel,test
+no thanks,Cancel,train
+not now,Cancel,train
+do not register,Cancel,train
+dont register,Cancel,test
+dont scan,Cancel,train
+stop scanning,Cancel,test
+stop the camera,Cancel,train
+turn off the camera,Cancel,test
+close,Cancel,train
+leave it,Cancel,train
+undo,Cancel,train
+undo that,Cancel,train
+start over,Cancel,train
+i changed my mind,Cancel,test
+wrong room,Cancel,train
+wrong class,Cancel,train
+that is wrong,Cancel,train
+cancle,Cancel,train
+canel,Cancel,train
+stopp,Cancel,train
+nevermind it,Cancel,train
+cancel registration,Cancel,train
+cancel attendance,Cancel,train
+no stop,Cancel,test
+help,Help,train
+help me,Help,test
+i need help,Help,train
+need help,Help,test
+help please,Help,train
+what can i say,Help,train
+what are my options,Help,test
+what are the commands,Help,train
+how does this work,Help,test
+how do i use this,Help,train
+i am lost,Help,train
+i do not know what to do,Help,train
+what now,Help,train
+what do i do,Help,test
+what should i say,Help,train
+instructions,Help,train
+give me instructions,Help,train
+explain,Help,train
+explain how this works,Help,train
+show me the commands,Help,test
+list commands,Help,train
+tell me what to do,Help,train
+guide me,Help,train
+can you help me,Help,train
+i am confused,Help,test
+i do not understand,Help,test
+where am i,Help,train
+where is my class,Help,test
+where is the room,Help,train
+where is the qr code,Help,train
+where is the code,Help,train
+hep,Help,train
+helpp,Help,train
+halp,Help,train
+help meh,Help,train
+i need hep,Help,train
+what can i do,Help,train
+register me now,Register,test
+mark me as present,Register,train
+i would like to check in,Register,train
+sign me in please,Register,test
+check in please,Register,train
+attendance please,Register,train
+take attendance,Register,train
+lets get started,Register,train
+yes go ahead,Register,test
+repeat the message,Repeat,train
+say the last thing again,Repeat,test
+can you say that one more time,Repeat,train
+i did not get that,Repeat,test
+what did you say again,Repeat,test
+repeat what you said,Repeat,train
+cancel everything,Cancel,train
+i do not want to,Cancel,train
+stop everything,Cancel,train
+no cancel,Cancel,test
+forget that,Cancel,train
+never mind cancel,Cancel,train
+turn it off,Cancel,test
+i need some help,Help,train
+what are the options,Help,train
+how do i register,Help,train
+what can you do,Help,train
+help with this,Help,train
+i am stuck,Help,train
+show me what to say,Help,train
